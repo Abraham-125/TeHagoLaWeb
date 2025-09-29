@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import "./Footer.css";
 
-const Footer = forwardRef<HTMLDivElement>((props, ref) => {
+const Footer = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div className="container-fluid container-footer" ref={ref}>
       <div className="row">

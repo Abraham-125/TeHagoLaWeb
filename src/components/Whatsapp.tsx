@@ -1,5 +1,4 @@
-import { a } from "framer-motion/client";
-import "./whatsapp.css";
+import "./Whatsapp.css";
 
 export const Whatsapp: React.FC = ({}) => {
   return (
