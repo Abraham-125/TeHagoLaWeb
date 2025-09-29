@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+
+.ventana-contenedor {
+  position: absolute;
+  top: 150px;
+  left: 550px;
+  height: 480px;
+  width: 750px;
+  background-color: rgb(0, 0, 0);
+  z-index: 10;
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ventana-encabezado {
+  height: 50px;
+  background: linear-gradient(90deg, #ffffff, #666666);
+  border-right: 3.5px solid #949494;
+}
+
+.ventana-cuerpo {
+  height: 430px;
+  background: linear-gradient(180deg, #000000 50%, #33074d 130%);
+  border-right: 3.5px solid #9405b1;
+  border-bottom: 3.5px solid #9405b1;
+}
+
+.ventana-icono {
+  margin-left: 10px;
+}
+
+.progress-container {
+  background-color: #00000000;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.progress-bar {
+  transition: width 0.1s linear;
+}
+
+.ventana-titulo {
+  color: rgb(119, 119, 119);
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.ventana-texto-1 {
+  padding: 60px 0px 40px 40px;
+
+  color: rgb(30, 216, 55);
+  font-size: 22px;
+}
+
+.ventana-texto-2 {
+  padding: 0px 0px 40px 40px;
+
+  color: rgb(30, 216, 55);
+  font-size: 22px;
+}
+
+.ventana-texto-3 {
+  padding: 0px 0px 0px 40px;
+
+  color: rgb(140, 0, 255);
+  font-size: 22px;
+}
+
+.ventana-x {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  color: rgb(189, 189, 189);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .ventana-contenedor {
+    top: 240px;
+    left: 20px;
+    width: 90%;
+    height: auto;
+  }
+
+  .ventana-titulo {
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .ventana-texto-1 {
+    padding: 30px 0px 30px 30px;
+    color: rgb(30, 216, 55);
+    font-size: 20px;
+  }
+
+  .ventana-texto-2 {
+    padding: 0px 0px 30px 30px;
+    color: rgb(30, 216, 55);
+    font-size: 20px;
+  }
+
+  .ventana-texto-3 {
+    padding: 0px 0px 30px 30px;
+    color: rgb(140, 0, 255);
+    font-size: 20px;
+  }
+
+  .ventana-cuerpo {
+    height: auto;
+  }
+
+  .progress-container {
+    background-color: #00000000;
+    overflow: hidden;
+    padding: 0px 30px 30px 30px;
+  }
+
+  .progress-bar {
+    transition: width 0.1s linear;
+  }
+
+  .ventana-abierta {
+    transform: translateY(270px) !important;
+    transition: transform 0.3s ease;
+  }
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  width: 8px;
+  color: rgb(140, 0, 255);
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+
+.sobre-nosotros-contenedor {
+  padding: 80px;
+}
+
+.sobre-nosotros-texto {
+  color: white;
+  width: 90%;
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .sobre-nosotros-contenedor {
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+
+  .sobre-nosotros-logo {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .sobre-nosotros-texto {
+    color: white;
+    width: 100%;
+  }
+}

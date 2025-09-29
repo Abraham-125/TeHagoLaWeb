@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+
+.serviceCard {
+  width: 70%;
+  margin: 20px;
+  overflow: hidden;
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.serviceCard:hover {
+  filter: brightness(1.2) saturate(1.2);
+  transition: filter 0.3s ease;
+}
+
+.btnVerMas {
+  text-decoration: none;
+  background-color: #249900;
+  padding: 8px 15px;
+  color: white;
+  border: 0px;
+  border-left: 7px solid #3cff00;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.btnVerMas:hover {
+  color: white;
+}
+
+.btnVerMas:active {
+  border-left: 7px solid transparent;
+  color: white;
+  transform: translateX(-4px);
+  transition: transform 0.1s ease, border-left 0.1s ease;
+}
+
+.logo-card {
+  width: 100px;
+  height: 100px;
+  margin: 20px !important;
+}
+
+.encabezado {
+  padding: 10px;
+  background: linear-gradient(90deg, #1c0c2d 0%, #180622 100%);
+  border-left: 7px solid #550d60;
+  color: white;
+}
+.encabezado h5 {
+  margin: 0px 0px 0px 80px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.cuerpo {
+  background: linear-gradient(90deg, #9527d5 0%, #170621 100%);
+  border-left: 7px solid #ff04fb;
+  color: white;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .serviceCard {
+    width: 100%;
+  }
+
+  .logo-card {
+    width: 80px;
+    height: 80px;
+    margin: 0px 12px 0px 0px !important;
+  }
+
+  .encabezado h5 {
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .cuerpo p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+  }
+}

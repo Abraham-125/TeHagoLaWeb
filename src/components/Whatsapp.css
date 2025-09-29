@@ -1,0 +1,49 @@
+.btn-whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  z-index: 100;
+  filter: drop-shadow(6px 0px 0px rgb(9, 61, 18))
+    drop-shadow(0px 6px 0px rgb(9, 61, 18));
+  cursor: pointer;
+  animation: shake 5s infinite;
+  transition: translate 0.1s ease, filter 0.1s ease;
+}
+
+@keyframes shake {
+  0%,
+  10%,
+  100% {
+    transform: translateX(0);
+  }
+  2%,
+  8% {
+    transform: translateX(-5px);
+  }
+  6% {
+    transform: translateX(5px);
+  }
+}
+
+.btn-whatsapp:hover {
+  filter: brightness(1.1) drop-shadow(6px 0px 0px rgb(9, 61, 18))
+    drop-shadow(0px 6px 0px rgb(9, 61, 18));
+}
+
+.btn-whatsapp:active {
+  filter: brightness(1.1) drop-shadow(0px 0px 0px rgb(9, 61, 18))
+    drop-shadow(0px 0px 0px rgb(9, 61, 18));
+  translate: 3px 3px;
+}
+
+@media (max-width: 768px) {
+  .btn-whatsapp {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+}

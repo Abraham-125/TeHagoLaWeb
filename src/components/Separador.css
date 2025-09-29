@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+
+.linea-izq {
+  border: 1px solid rgb(255, 0, 221);
+  width: 30%;
+  margin-right: 40px;
+}
+
+.linea-der {
+  border: 1px solid rgb(255, 0, 221);
+  width: 30%;
+  margin-left: 40px;
+}
+
+.separador-titulo {
+  color: rgb(30, 216, 55);
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  white-space: nowrap;
+}

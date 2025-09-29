@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+
+.red {
+}
+
+.caso-titulo-1 {
+  color: rgb(22, 211, 22);
+  margin-left: 50px;
+}
+.caso-titulo-2 {
+  color: rgb(22, 211, 22);
+  margin-right: 50px;
+}
+.container-caso-exito {
+  padding: 0px 100px 0px 100px !important;
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.separacion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img-caso-exito {
+  width: 150px;
+}
+
+.caso-exito-titulo-1 {
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(21, 0, 36) 0%,
+    rgb(21, 0, 36) 30%,
+    rgb(41, 0, 65) 30%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+.caso-exito-titulo-2 {
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(41, 0, 65) 0%,
+    rgb(41, 0, 65) 70%,
+    rgb(21, 0, 36) 70%,
+    rgb(21, 0, 36) 100%
+  );
+}
+
+.punteos {
+  line-height: 3;
+}
+
+.caso-exito-titulo-3 {
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(21, 0, 36) 0%,
+    rgb(21, 0, 36) 30%,
+    rgb(41, 0, 65) 30%,
+    rgb(41, 0, 65) 100%
+  );
+}
+
+.texto-personalizado-1 {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .img-caso-exito {
+    margin-bottom: 20px !important;
+  }
+
+  .container-caso-exito {
+    padding: 0px !important;
+    margin: 0px;
+  }
+  .img-caso-exito {
+    display: flex;
+    justify-self: center;
+  }
+  .caso-exito-titulo-1 {
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(41, 0, 65));
+  }
+  .caso-exito-titulo-2 {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+
+    background: linear-gradient(to right, rgb(41, 0, 65));
+  }
+  .caso-exito-titulo-3 {
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(41, 0, 65));
+  }
+
+  .punteos {
+    line-height: 1.5;
+  }
+
+  .texto-personalizado-1 {
+    padding: 30px !important;
+  }
+
+  .separacion {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .texto-personalizado-2 {
+    padding: 30px !important;
+  }
+
+  .caso-titulo-1,
+  .caso-titulo-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

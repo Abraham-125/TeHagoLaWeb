@@ -1,0 +1,19 @@
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: grayscale(1) contrast(1.02) brightness(0.3) sepia(1)
+    hue-rotate(110deg) saturate(30);
+}
+
+.video-header {
+  height: 80vh; /* pantalla completa */
+  background-color: #0a0014; /* mismo fondo por si el video falla */
+  position: relative;
+  overflow: hidden;
+}
